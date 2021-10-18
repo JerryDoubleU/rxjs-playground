@@ -22,6 +22,9 @@ module.exports = {
   resolve: {
     extensions: ['.ts', '.js']
   },
+  devServer: {
+    hot: false
+  },
   output: {
     publicPath: '/',
     filename: 'bundle.js',

@@ -1,5 +1,3 @@
-
-
 import { Observable } from 'rxjs';
 
 const someObservable$ = new Observable<string>(subscriber => {
@@ -10,4 +8,3 @@ const someObservable$ = new Observable<string>(subscriber => {
 });
 
 someObservable$.subscribe(value => console.log(value));
-
